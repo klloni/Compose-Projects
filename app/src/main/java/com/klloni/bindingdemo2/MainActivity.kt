@@ -18,14 +18,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startOrStopProgressBar() {
-        val progressBar = binding.progressBar
-        val button = binding.controlButton
-        if (progressBar.visibility == View.GONE) {
-            progressBar.visibility = View.VISIBLE
-            button.text = "Stop"
-        } else {
-            progressBar.visibility = View.GONE
-            button.text = "Start"
+        binding.apply {
+            if (progressBar.visibility == View.GONE) {
+                progressBar.visibility = View.VISIBLE
+                controlButton.text = "Stop"
+            } else {
+                progressBar.visibility = View.GONE
+                controlButton.text = "Start"
+            }
         }
     }
 }
