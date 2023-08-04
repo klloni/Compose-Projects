@@ -1,4 +1,4 @@
-package com.klloni.viewmodeldemo1
+package com.klloni.twowaydatabindingdemo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

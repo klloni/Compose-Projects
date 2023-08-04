@@ -1,10 +1,10 @@
-package com.klloni.viewmodeldemo1
+package com.klloni.twowaydatabindingdemo
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
-import com.klloni.viewmodeldemo1.databinding.ActivityMainBinding
+import com.klloni.twowaydatabindingdemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         viewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
-        binding.lifecycleOwner = this
         binding.myViewModel = viewModel
+        binding.lifecycleOwner = this
     }
 }
