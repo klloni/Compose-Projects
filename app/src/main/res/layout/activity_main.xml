@@ -19,7 +19,7 @@
             android:id="@+id/hello_world"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{myViewModel.userName}"
+            android:text="@{myViewModel.userNameData}"
             android:textSize="40sp"
             android:textStyle="bold"
             android:typeface="serif"
