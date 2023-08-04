@@ -1,4 +1,4 @@
-package com.klloni.viewmodeldemo1
+package com.klloni.twowaydatabindingdemo
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

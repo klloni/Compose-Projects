@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.klloni.viewmodeldemo1'
+    namespace 'com.klloni.twowaydatabindingdemo'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.klloni.viewmodeldemo1"
+        applicationId "com.klloni.twowaydatabindingdemo"
         minSdk 21
         targetSdk 33
         versionCode 1
