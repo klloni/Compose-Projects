@@ -16,5 +16,6 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(this)[MainActivityViewModel::class.java]
         binding.myViewModel = viewModel
         binding.lifecycleOwner = this
+        //Two way binding added
     }
 }
